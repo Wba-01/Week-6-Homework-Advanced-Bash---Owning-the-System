@@ -23,14 +23,16 @@ Save and submit the completed file for your homework submission.
 
 6. Test that `sudo` access works without your password:
 
-    ```tail -1 /etc/sudoers
+    ```
+    tail -1 /etc/sudoers
     ```
 
 **Step 2: Smooth Sailing**
 
 1. Edit the `sshd_config` file:
 
-    ```sudo nano /etc/ssh/sshd_config
+    ``
+    `sudo nano /etc/ssh/sshd_config
     ```
 
 **Step 3: Testing Your Configuration Update**
